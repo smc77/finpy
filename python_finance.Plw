@@ -23,6 +23,13 @@ Python is a modern programming language that combines functional programming fro
 
 This document is created using Pweave, so all source code has been embedded directly in the document.  The source code is all posted on github and is available under a BSD license.
 
+
+This document can be built by calling "pweave -f tex python\_finance.Plw", followed by "python\_finance.tex"..
+
+\section{Working with Data}
+
+Python has a number of very flexible core data structures.  
+
 \subsection{Pandas}
 
 I will be primarily relying on Wes McKinney's pandas library for data analysis.  This provides a set of data structures that greatly improve on the data structures in base Python and Numpy.
@@ -35,6 +42,6 @@ print DataFrame(range(10))
 @ 
 
 
-This document can be built by calling "pweave -f tex python\_finance.Plw", followed by "python\_finance.tex"..
+
 
 \end{document}
