@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt,final]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{A Brief Introduction to Finance with Python}
+\author{Shane Conway\\
+\url{smc77@columbia.edu}}
+
+\maketitle
+
+\section{Introduction}
+
+This is an example of calling python code through Pweave.
+
+<<>>=
+from pylab import *
+from pandas import *
+
+print DataFrame(range(10))
+@ 
+
+
+This document can be built by calling "pweave -f tex python\_finance.Plw", followed by "python\_finance.tex"..
+
+\end{document}
