@@ -4,7 +4,7 @@
 
 \begin{document}
 
-\title{A Brief Introduction to Finance with Python}
+\title{A Brief Introduction to Quantitative Finance with Python}
 \author{Shane Conway\\
 \url{smc77@columbia.edu}}
 
@@ -12,7 +12,20 @@
 
 \section{Introduction}
 
-This is an example of calling python code through Pweave.
+Quantitative Finance is a broad field covering the modern application of quantitative methods to the study of financial assets and markets.  It primarily involves the use of techniques from engineering (operations research and optimization) and economics (especially time series analysis and econometrics).  
+
+I am to introduce the primary results of modern quantitative finance using Python.
+
+
+\subsection{Why Python?}
+
+Python is a modern programming language that combines functional programming from languages like Lisp with object oriented methods from langauges like C++.  
+
+This document is created using Pweave, so all source code has been embedded directly in the document.  The source code is all posted on github and is available under a BSD license.
+
+\subsection{Pandas}
+
+I will be primarily relying on Wes McKinney's pandas library for data analysis.  This provides a set of data structures that greatly improve on the data structures in base Python and Numpy.
 
 <<>>=
 from pylab import *
