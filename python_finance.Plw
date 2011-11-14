@@ -14,8 +14,9 @@
 
 Quantitative Finance is a broad field covering the modern application of quantitative methods to the study of financial assets and markets.  It primarily involves the use of techniques from engineering (operations research and optimization) and economics (especially time series analysis and econometrics).  
 
-I am to introduce the primary results of modern quantitative finance using Python.
+I aim to introduce the primary results of modern quantitative finance using Python.
 
+This is loosely inspired by Grant V. Farnsworth's "Econometrics in R" \url{http://cran.r-project.org/doc/contrib/Farnsworth-EconometricsInR.pdf}
 
 \subsection{Why Python?}
 
